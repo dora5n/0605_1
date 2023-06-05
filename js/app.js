@@ -4,3 +4,12 @@ console.log("まえさこ" + 80 * rate + "点");
 console.log("みつ君" + 90 * rate + "点");
 console.log("かほ" + 70 * rate + "点");
 
+let animals = ["dog","cat","lion"];
+console.log(animals[1]);
+animals[1] = "tiger";
+console.log(animals[1]);
+
+
+
+
+
