@@ -19,5 +19,11 @@ let data = [
 console.log(data[1][2]);
 
 
+let kazu = [
+  [0,1,2],
+  [3,,5]
+];
+kazu[1][1] = "4";
 
+console.log(kazu[1][1]);
 
