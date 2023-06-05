@@ -26,9 +26,15 @@ let kazu = [
 kazu[1][1] = "4";
 console.log(kazu[1][1]);
 
+
+// 配列を宣言する方法 ↓↓
+
 var array = ['リンゴ','バナナ','イチゴ'];
 
 console.log( array );
+
+
+// 配列の要素を取得する方法 ↓↓
 
 var _3nen5kumi = ['kato','sato','suzuki','tanaka','hayama'];
 
@@ -38,8 +44,32 @@ console.log('_3nen5kumi[3];' + _3nen5kumi[3]);
 
 console.log('_3nen5kumi[5];' + _3nen5kumi[5]);
 
+
+// 配列の要素を検索する方法(indexOf) ↓↓
+
 var items = ['バナナ','イチゴ','リンゴ','メロン'];
 
 var result = items.indexOf('リンゴ');
 
 console.log( result );
+
+
+// 配列の要素を追加する方法(push) ↓↓
+
+var _3nen5kumi = ['kato','sato','suzuki','tanaka','hayama'];
+
+console.log('夏休み前：' + _3nen5kumi);
+
+// 夏休み中に転入生の前田くんが３年５組の仲間に加わった
+_3nen5kumi[5] = 'maeda'
+
+console.log('夏休み後：' + _3nen5kumi);
+
+
+// 冬休み前に転入生の山田くんが３年５組の仲間に加わった
+_3nen5kumi.push('yamada');
+
+console.log('冬休み前：' + _3nen5kumi);
+
+
+
