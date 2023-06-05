@@ -65,11 +65,20 @@ _3nen5kumi[5] = 'maeda'
 
 console.log('夏休み後：' + _3nen5kumi);
 
-
 // 冬休み前に転入生の山田くんが３年５組の仲間に加わった
 _3nen5kumi.push('yamada');
 
 console.log('冬休み前：' + _3nen5kumi);
+
+
+// 配列の要素を削除する方法(delete) ↓↓
+
+var _3nen5kumi = ['kato','sato','suzuki','tanaka','hayama'];
+
+// 'sato'君が転校することになった
+delete _3nen5kumi[1];
+
+console.log(_3nen5kumi);
 
 
 
