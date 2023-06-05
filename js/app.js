@@ -24,6 +24,16 @@ let kazu = [
   [3,,5]
 ];
 kazu[1][1] = "4";
-
 console.log(kazu[1][1]);
 
+var array = ['リンゴ','バナナ','イチゴ'];
+
+console.log( array );
+
+var _3nen5kumi = ['kato','sato','suzuki','tanaka','hayama'];
+
+console.log('_3nen5kumi[0];' + _3nen5kumi[0]);
+
+console.log('_3nen5kumi[3];' + _3nen5kumi[3]);
+
+console.log('_3nen5kumi[5];' + _3nen5kumi[5]);
