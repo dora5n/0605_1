@@ -37,3 +37,9 @@ console.log('_3nen5kumi[0];' + _3nen5kumi[0]);
 console.log('_3nen5kumi[3];' + _3nen5kumi[3]);
 
 console.log('_3nen5kumi[5];' + _3nen5kumi[5]);
+
+var items = ['バナナ','イチゴ','リンゴ','メロン'];
+
+var result = items.indexOf('リンゴ');
+
+console.log( result );
